@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NavegacaoExercicio1.Registro"
+             Title="Registro">
+
+    <StackLayout>
+        
+        <Entry Placeholder="Nome" x:Name="txtNome" Keyboard="Text" FontSize="15"/>
+        <Entry Placeholder="Email" x:Name="txtEmail" Keyboard="Text" FontSize="15"/>
+        <Entry Placeholder="Idade" x:Name="txtIdade" Keyboard="Numeric" FontSize="15"/>
+        
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="SALVAR" Clicked="Salvar_Clicked"/>
+            <Button Text="CANCELAR" Clicked="Cancelar_Clicked_1"/>
+        </StackLayout>
+        
+    </StackLayout>
+
+</ContentPage>
