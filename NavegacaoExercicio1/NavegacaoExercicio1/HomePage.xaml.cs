@@ -26,5 +26,6 @@ namespace NavegacaoExercicio1
         {
             await Navigation.PushAsync(new Registro());
         }
+            
     }
 }

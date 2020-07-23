@@ -4,12 +4,19 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NavegacaoExercicio1.Login">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+             x:Class="NavegacaoExercicio1.Login"
+             Title="Login">
+
+    <StackLayout BackgroundColor="White">
+        <Entry Placeholder="Nome do Usuário" x:Name="txtNomeDoUsuario" FontSize="17" Keyboard="Text"/>
+        <Entry Placeholder="Senha" x:Name="txtSenha" FontSize="17" IsPassword="True" Keyboard="Text"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button Text="LOGIN" FontSize="16" Clicked="Login_Clicked"/>
+            <Button Text="CANCELAR" FontSize="16" Clicked="Cancelar_Clicked"/>
         </StackLayout>
-    </ContentPage.Content>
+    </StackLayout>
+
 </ContentPage>
+        
+        
+        

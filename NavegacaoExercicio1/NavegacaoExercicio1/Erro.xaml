@@ -4,12 +4,13 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NavegacaoExercicio1.Erro">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="NavegacaoExercicio1.Erro"
+             BackgroundColor="red"
+             Title="Êrro">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <Label Text="Login Inválido" TextColor="White" FontSize="18"/>
+        <Button Text="RETORNAR" TextColor="White" Clicked="Button_Clicked" BackgroundColor="blue" FontSize="18"/>
+    </StackLayout>
+
 </ContentPage>

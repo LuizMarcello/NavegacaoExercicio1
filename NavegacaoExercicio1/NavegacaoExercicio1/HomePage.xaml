@@ -6,10 +6,12 @@
              mc:Ignorable="d"
              x:Class="NavegacaoExercicio1.HomePage"
              Title="HomePage">
-    
+
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-        <Button Text="LOGIN" ImageSource="unlock48.png" Clicked="login_Clicked"/>
-        <Button Text="REGISTRAR" ImageSource="doc48.png" Clicked="registrar_Clicked_1"/>
+        <Button ImageSource="unlock48.png" Text="LOGIN" FontSize="15" Clicked="login_Clicked"/>
+        <Button ImageSource="doc48.png" Text="REGISTRAR" FontSize="15" Clicked="registrar_Clicked_1"/>
     </StackLayout>
     
 </ContentPage>
+    
+    

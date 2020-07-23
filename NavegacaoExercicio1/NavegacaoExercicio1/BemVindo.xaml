@@ -4,12 +4,14 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="NavegacaoExercicio1.BemVindo">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="NavegacaoExercicio1.BemVindo"
+             Title="{Binding Nome}">
+
+    <StackLayout>
+        <Label Text="Bem-Vindo(a)" TextColor="Black" FontSize="18"/>
+        <Label Text="{Binding Nome}" TextColor="Black" FontSize="18" HorizontalOptions="Center"/>
+        <Label Text="{Binding Senha}" TextColor="Black" FontSize="18" HorizontalOptions="Center"/>
+    </StackLayout>
+    
 </ContentPage>
+   

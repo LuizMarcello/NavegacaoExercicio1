@@ -8,16 +8,15 @@
              Title="Registro">
 
     <StackLayout>
-        
-        <Entry Placeholder="Nome" x:Name="txtNome" Keyboard="Text" FontSize="15"/>
-        <Entry Placeholder="Email" x:Name="txtEmail" Keyboard="Text" FontSize="15"/>
-        <Entry Placeholder="Idade" x:Name="txtIdade" Keyboard="Numeric" FontSize="15"/>
-        
+        <Entry Placeholder="Nome" FontSize="17" x:Name="txtNome" Keyboard="Text"/>
+        <Entry Placeholder="Email" FontSize="17" x:Name="txtEmail" Keyboard="Text"/>
+        <Entry Placeholder="Idade" FontSize="17" Keyboard="Text"/>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
             <Button Text="SALVAR" Clicked="Salvar_Clicked"/>
             <Button Text="CANCELAR" Clicked="Cancelar_Clicked_1"/>
         </StackLayout>
-        
     </StackLayout>
 
 </ContentPage>
+
+            
